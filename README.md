@@ -1,2 +1,4 @@
-# Multi-EnvironmentsandMulti-clusters-Gitops
-gitops-multienv-infratructure-ArgoCD
+# gitops-multienv-infratructure-ArgoCD
+
+
+![architecture.svg](architecture.svg)

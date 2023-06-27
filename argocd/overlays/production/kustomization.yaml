@@ -1,0 +1,11 @@
+bases:
+- ../../base
+
+patches:
+- target:
+    kind: Deployment
+    name: website
+  patch: |-
+    - op: replace
+      path: /spec/template/spec/containers/0/image
+      value: xxxxx.dkr.ecr.eu-west-3.amazonaws.com/multienv-vote:xxxxx
